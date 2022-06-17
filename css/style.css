@@ -250,7 +250,7 @@ iframe {
 .phone_number::before{
   content:"";
   background-image:url(/Users/apple/HTML_CSS/teruchan_sama/img/icon_tel.png);
-  background-color: brown;
+  background-color: #C1574A;
   display: inline-block;
   background-repeat: no-repeat;
   width: 21px;
@@ -277,4 +277,9 @@ iframe {
 
 .interior-info{
   text-align: center;
+}
+
+.reserve-btn{
+  background-color: #C1574A;
+  color: white;
 }
