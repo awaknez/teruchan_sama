@@ -336,5 +336,8 @@ main{
 
 .nav-item a{
   font-size: 22px;
-  color: white;
+}
+
+.head-lead{
+  font-size: 18px;
 }
