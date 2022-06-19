@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>サンプルページ | サイト名</title>
+<meta name="description" content="サイトの説明文">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="このページのURL">
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:site_name" content="サイト名" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL">
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類">
+<meta name="twitter:site" content="@ユーザー名">    
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+    
+<body id="page">
+<header>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+      <a class="navbar-brand" href="../index.html"><img src="../img/header-logo.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto py-3 py-lg-0 mt-3 mt-lg-0">
+            <li class="nav-item"><a class="nav-link" href="../pages/menu.html">メニュー</a> </li>
+            <li class="nav-item"><a class="nav-link" href="../index.html#sec2">こだわり</a> </li>
+            <li class="nav-item"><a class="nav-link" href="../index.html#sec3">店内紹介</a> </li>
+            <li class="nav-item"><a class="nav-link" href="../index.html#sec4">アクセス</a> </li>
+            <!-- <li class="nav-item"><a class="nav-link" href="../index.html#sec5">MENU</a> </li> -->
+          </ul>
+            <!-- <div class="text-center text-white pb-2 pb-lg-0">
+                <a class="btn btn-block btn-outline-light py-3 font-weight-bold" href="../contact/index.html" role="button">Webでのご予約はこちら</a>            
+            </div> -->
+        </div>
+      </div>
+    </nav>
+</header>
+
+<nav aria-label="breadcrumb" class="breadcrumb rounded-0">
+    <ol class="breadcrumb container py-0 mb-0">
+        <li class="breadcrumb-item"><a href="../index.html">TOPページ</a></li>
+        <li class="breadcrumb-item active">メニュー</li>
+    </ol>
+</nav>
+
+<main class="py-5 container">
+            <h1 class="font-weight-bold text-center ttl-bdr">メニュー</h1>
+	<div class="row">
+    <div class="col-md-4 mb-4">
+			<div class="accordion mb-3" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a class="text-body" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+                料理メニュー
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body p-3 border-bottom">
+              焼鳥・トッピング・創作串
+            </div><!-- /.card-body -->
+            <div class="card-body p-3 border-bottom">
+              お刺身
+            </div><!-- /.card-body -->
+              <div class="card-body p-3 border-bottom">
+              一品料理
+              </div><!-- /.card-body -->
+              <div class="card-body p-3 border-bottom">
+                揚げ物
+              </div><!-- /.card-body -->
+              <div class="card-body p-3 border-bottom">
+                スピードメニュー
+              </div><!-- /.card-body -->
+              <div class="card-body p-3 border-bottom">
+                  サラダ
+              </div><!-- /.card-body -->
+              <div class="card-body p-3 border-bottom">
+                ご飯・スープ類
+            </div><!-- /.card-body -->
+            <div class="card-body p-3 border-bottom">
+              アイス
+            </div><!-- /.card-body -->
+              <div class="card-body p-3">
+              ドリンク
+              </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed text-body" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+                こだわり
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+            <!-- <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body p-0">
+                <ul class="list-unstyled mb-0">
+                            <li class="p-3 border-bottom"><a href="#">link</a></li>
+                            <li class="p-3 border-bottom"><a href="#">link</a></li>
+                            <li class="p-3 border-bottom"><a href="#">link</a></li>
+                            <li class="p-3"><a href="#">link</a></li>
+                        </ul> -->
+              <!-- </div>/.card-body -->
+            <!-- </div>/.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed text-body" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+                店内紹介
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+                  <!-- <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body p-0">
+                      <ul class="list-unstyled mb-0">
+                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
+                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
+                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
+                                  <li class="p-3"><a href="#">link</a></li>
+                              </ul>
+                    </div> /.card-body -->
+                  <!-- </div>/.collapse -->
+          </div><!-- /.card -->
+      </div><!-- /#accordion -->
+			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
+			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
+			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
+		</div>
+    <article class="col-md-8 border p-3 p-md-5 m-3 m-lg-0">
+      <p class="h2">ドリンクメニュー</p>
+      <!--ビール-->
+      <section>
+        <p class="h3 drink-catefory">ビール</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">生ビール</p>
+              <div class="price">
+                <h5>390円</h5>
+                <p class="tax-in">(税込429円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">生小</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">瓶ビール</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents-->  
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--ウイスキー-->
+      <section>
+        <p class="h3 drink-catefory">ウイスキー</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">ニッカハイボール</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">角ハイボール</p>
+              <div class="price">
+                <h5>360円</h5>
+                <p class="tax-in">(税込396円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">コークハイ</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">ジンジャーハイ</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents-->  
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--チューハイ-->
+      <section>
+        <p class="h3 drink-catefory">チューハイ</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">レモン</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">ライム</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">カルピス</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">トマト</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">柚子ジャム</p>
+              <div class="price">
+                <h5>360円</h5>
+                <p class="tax-in">(税込396円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">ガリチューハイ</p>
+              <div class="price">
+                <h5>360円</h5>
+                <p class="tax-in">(税込396円)</p>
+              </div>
+            </div><!--contents-->  
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--ワイン-->
+      <section>
+        <p class="h3 drink-catefory">ワイン</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">赤ワイン</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">白ワイン</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents-->  
+            <div class="d-flex justify-content-between">
+              <p class="h5">カルピス</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">赤玉パンチ</p>
+              <div class="price">
+                <h5>300円</h5>
+                <p class="tax-in">(税込330円)</p>
+              </div>
+            </div><!--contents--> 
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--梅酒-->
+      <section>
+        <p class="h3 drink-catefory">梅酒</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">濃厚梅酒</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents--> 
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--焼酎-->
+      <section>
+        <p class="h3 drink-catefory">焼酎</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">「麦」いいちこ</p>
+              <div class="price">
+                <h5>390円</h5>
+                <p class="tax-in">(税込429円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">「芋」黒霧島</p>
+              <div class="price">
+                <h5>390円</h5>
+                <p class="tax-in">(税込429円)</p>
+              </div>
+            </div><!--contents--> 
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--カクテル-->
+      <section>
+        <p class="h3 drink-catefory">カクテル</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">カシスオレンジ</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">ピーチウーロン</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">カルアミルク</p>
+              <div class="price">
+                <h5>450円</h5>
+                <p class="tax-in">(税込495円)</p>
+              </div>
+            </div><!--contents--> 
+            <p class="h6">（ソーダ割り等に変更できます。）</p>
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--ソフトドリンク-->
+      <section>
+        <p class="h3 drink-catefory">ソフトドリンク</p>
+        <div class="row d-flex">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between">
+              <p class="h5">コーラ</p>
+              <div class="price">
+                <h5>200円</h5>
+                <p class="tax-in">(税込220円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">ジンジャエール</p>
+              <div class="price">
+                <h5>200円</h5>
+                <p class="tax-in">(税込220円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">カルピス</p>
+              <div class="price">
+                <h5>200円</h5>
+                <p class="tax-in">(税込220円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">オレンジジュース</p>
+              <div class="price">
+                <h5>200円</h5>
+                <p class="tax-in">(税込220円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">ミックスジュース</p>
+              <div class="price">
+                <h5>250円</h5>
+                <p class="tax-in">(税込275円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">ウーロン茶</p>
+              <div class="price">
+                <h5>120円</h5>
+                <p class="tax-in">(税込132円)</p>
+              </div>
+            </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5">緑茶</p>
+              <div class="price">
+                <h5>120円</h5>
+                <p class="tax-in">(税込132円)</p>
+              </div>
+            </div><!--contents--> 
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+    </article>
+</main>
+    <!------------------------------------------------------------------------>
+    <hr>
+    <!---------------------------お店情報--------------------------------------------->
+  <section class="container py-5  bg-white" id="sec5">
+      <div class="row flex-row-reverse">
+          <div class="col-12 col-lg-6">
+          <img src="img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-block d-md-none"> 
+          <img src="img/front.JPG" class="footer-logo mb-3 d-block d-md-none">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1534.5236713452484!2d135.55262318256618!3d34.6580372162294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dfb19f3a3871%3A0xf9cabd87c13209b!2z44KE44GN44Go44KK44Gm44KL44Gh44KD44KT!5e0!3m2!1sja!2sjp!4v1655434669681!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.830828060774!2d139.7648629!3d35.6811673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1540728928735"  frameborder="0" style="border:0" allowfullscreen></iframe> -->
+          </div>
+          <div class="col-12 col-lg-6">
+              <img src="img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-none d-md-block">
+              <img src="img/front.JPG" class="footer-logo d-md-block d-none mb-3">
+                      <dl class="text-secondary text-left mb-0">
+                      <dt class="float-md-left">住所：</dt><dd>大阪市生野区小路３丁目５−１６</dd>
+                      <dt class="float-md-left">営業時間：</dt><dd>17：00〜翌3：00（LO. 翌2:00）</dd>
+                      <dt class="float-md-left">アクセス：</dt>
+                      <dd>大阪メトロ千日前線「小路」下車　徒歩7分<br>大阪メトロ千日前線「北巽」下車　徒歩7分</dd>
+                      <dt class="float-md-left">定休⽇：</dt><dd>不定休</dd>
+                  </dl>        
+                  <!-- <p class="text-left">※ Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p> -->
+              <p class="sns-info">＼SNSやってます／</p>
+              <div class="social mb-3 text-center">
+                  <!-- Twitter  --> 
+                  <a href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><img src="img/sns.svg" alt="Twitter logo" class="mx-1"></a> 
+                  <!-- Facebook   --> 
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); return false;" target="blank"><img src="img/sns.svg" alt="Facebook logo" class="mx-1"></a> </div>
+              <div class="border text-center p-2 rounded reserve-btn">
+                  <p class="m-0">お電話でのご予約はこちら</p>
+                  <p class="tel m-0 h3 phone_number">06-6756-8889</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    
+    <!------------------------------------------------------------------------>
+<footer class="bg-light">
+    <div class="bg-dark text-white py-3">
+        <div class="text-center">
+            <h6>20XX© あなたのサイト名 All Rights Reserved </h6>
+        </div>
+    </div>
+</footer>
+<nav>	
+<p id="page-top"><a href="#">PAGE TOP</a></p>
+</nav>	
+<!-- *************************************************************** -->    
+<!-- javascript はここから --> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

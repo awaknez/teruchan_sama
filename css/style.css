@@ -344,7 +344,7 @@ main{
 
 /* メニューページ */
 .price{
-  color: red;
+  color: #C1574A;
   display: flex;
   align-items: baseline;
 }
@@ -362,4 +362,40 @@ main{
 
 .anno1{
   font-size: 12px;
+}
+
+.creative-food{
+  position: relative;
+}
+
+.side-anno{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.anno-txt{
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ここからドリンクページ */
+.drink-catefory{
+  border-bottom: 1px solid #C1574A;
+  margin-bottom: 15px;
+}
+
+.drink-catefory::before{
+  content: "●";
+  color: #C1574A;
+  font-size: 24px;
+  vertical-align: unset;
 }
