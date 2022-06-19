@@ -341,3 +341,21 @@ main{
 .head-lead{
   font-size: 18px;
 }
+
+/* メニューページ */
+.price{
+  color: red;
+  display: flex;
+  align-items: baseline;
+}
+
+.tax-in{
+  font-size: 14px;
+}
+
+.selection{
+  font-size: 14px;
+}
+.side-info{
+  position: relative;
+}
