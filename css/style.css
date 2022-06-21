@@ -384,6 +384,8 @@ main{
   font-size: 18px;
   text-align: center;
 }
+
+/* SNSやってますの下線部分 */
 .sns-info span{
   background: #f3b530;
   height: 5px;
@@ -401,6 +403,16 @@ main{
 
 .head-lead{
   font-size: 18px;
+}
+
+.footer-list ul li::before{
+  content:"-";
+  margin-right: 5px;
+}
+
+.footer-list p::before{
+  content:"■";
+  margin-right: 5px;
 }
 
 /* メニューページ */
@@ -509,7 +521,6 @@ body{
 
 .ttl-bdr{
   font-family: "ヒラギノ明朝 ProN";
-
 }
 
 /* ハンバーガーメニューの装飾 */
