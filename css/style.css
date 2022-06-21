@@ -42,6 +42,7 @@ header .tel a {
   text-align: center;
   display: block;
   border-radius: 10px;
+  border: 0.2px solid #fff;
   position: relative;
   font-weight: bold;
 }
@@ -52,7 +53,7 @@ header .tel a {
   font-weight: bold;
   position: absolute;
   top: 8px;
-  left: 39px;
+  left: 38px;
 }
 
 #page-top a::after{
@@ -61,7 +62,7 @@ header .tel a {
   font-weight: bold;
   position: absolute;
   top: 8px;
-  right: 39px;
+  right: 38px;
 }
 
 #page-top a:hover {
@@ -298,10 +299,6 @@ iframe {
   text-align: center;
 }
 
-.bg-wheat{
-  background-color: wheat;
-  border-radius: 3px;
-}
 
 .menu-btnArea a{
   background-color: #C1574A;
@@ -386,6 +383,16 @@ main{
 .sns-info{
   font-size: 18px;
   text-align: center;
+}
+.sns-info span{
+  background: #f3b530;
+  height: 5px;
+  width:140px;
+  text-align: center;
+  /* position: absolute;
+  top: 30px;
+  left:200px; */
+  border-radius:3px;
 }
 
 .nav-item a{
@@ -497,10 +504,47 @@ body{
 
 .nav-tabs li a{
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .ttl-bdr{
   font-family: "ヒラギノ明朝 ProN";
 
 }
+
+/* ハンバーガーメニューの装飾 */
+/* ボタン外フチ、ボーダーの色はclassで指定 */
+.navbar-toggler{
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+/* 棒線を作成 */
+.navbar-toggler-icon{
+  background: #fff;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  left:4px;
+}
+/* 順番に位置をずらす */
+.navbar-toggler-icon:nth-of-type(1){
+  top:5px;
+}
+.navbar-toggler-icon:nth-of-type(2){
+  top:11px;
+}
+.navbar-toggler-icon:nth-of-type(3){
+  top:17px;
+}
+
+.navbar-toggler-icon:nth-of-type(3)::after{
+  content:"MENU";/*3つ目の要素のafterにMenu表示を指定*/
+  position: absolute;
+  top:7px;
+  left:0.3px;
+  color: #fff;
+  font-size: 0.6rem;
+}
+/* ハンバーガーメニューの装飾。ここまで */
