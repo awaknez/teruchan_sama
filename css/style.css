@@ -34,7 +34,7 @@ header .tel a {
 }
 
 #page-top a {
-  background: #666;
+  background: #c1574A;
   text-decoration: none;
   color: #fff;
   width: 100px;
@@ -46,7 +46,7 @@ header .tel a {
 
 #page-top a:hover {
   text-decoration: none;
-  background: #999;
+  background: #c46d62;
 }
 
 .btn-outline-secondary:hover,

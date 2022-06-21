@@ -126,58 +126,74 @@
               </a>
             </h5>
           </div><!-- /.card-header -->
-                  <!-- <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body p-0">
-                      <ul class="list-unstyled mb-0">
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3"><a href="#">link</a></li>
-                              </ul>
-                    </div> /.card-body -->
-                  <!-- </div>/.collapse -->
           </div><!-- /.card -->
       </div><!-- /#accordion -->
-			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
-			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
-			<div class="bg-secondary rounded text-white p-4 mb-2">BANNER</div>
 		</div>
     <article class="col-md-8 border p-3 p-md-5 m-3 m-lg-0">
       <p>やきとり てるちゃんは広々とした店内で、おひとり様でもご家族でもごゆっくりしていたけます。</p>
       <section id="sec2" class="py-5 container ">
-          <div class="row py-4 pl-4">
+        <!-- PC画面表示用 -->
+          <div class="row py-4 pl-4 d-md-block d-none">
               <div class="mb-4 d-flex">
                   <div class="col-md-6"> <img class="card-img-top rounded-0" src="../img/Interior1.JPG" alt="広々とした店内"> </div>
                   <div class="col-md-6">
-                    <p>
+                    <p class="col-12">
                       <img src="../img/store_inside.png" class="card-interior-info_1">
                     </p>
                     <p class="lead text-left commit-txt">（サンプル）店内は広々としたお席を用意しております</p>
                   </div>
               </div>
           </div>
-          <div class="row py-4 pl-4">
+          <div class="row py-4 pl-4 d-md-block d-none">
             <div class="mb-4 d-flex">
                 <div class="col-md-6"> <img class="card-img-top rounded-0" src="../img/Interior2.JPG" alt="広々とした店内"> </div>
                 <div class="col-md-6">
-                  <p>
+                  <p class="col-12">
                     <img src="../img/counter.png" class="card-interior-info_1">
                   </p>
                   <p class="lead text-left commit-txt">（サンプル）おひとり様でもゆっくりくつろげるカウンターを用意しております</p>
                 </div>
             </div>
           </div>
-          <div class="row py-4 pl-4">
+          <div class="row py-4 pl-4 d-md-block d-none">
             <div class="mb-4 d-flex">
                 <div class="col-md-6"> <img class="card-img-top rounded-0" src="../img/Interior4.JPG" alt="広々とした店内"> </div>
                 <div class="col-md-6">
-                  <p>
+                  <p class="col-12">
                     <img src="../img/seats.png" class="card-interior-info_1">
                   </p>
                   <p class="lead text-left commit-txt">（サンプル）ご家族もごゆっくりできるお座敷席もございます。</p>
                 </div>
             </div>
+          </div>        <!-- PC画面表示用 -->
+          <!-- ここからスマホ画面用 -->
+          <div class="d-block d-md-none">
+            <p class="interior-info">
+              <img src="../img/store_inside.png" class="card-interior-info_1">
+            </p>
+            <p class="img card-img-top rounded-0">
+                <img src="../img/Interior1.JPG" class="card-interior-img">
+            </p>
+            <p class="txt">（サンプル）店内は広々としたお席を用意しております</p>
           </div>
+          <div class=" d-block d-md-none">
+            <p class="img card-img-top rounded-0">
+              <img src="../img/counter.png" class="card-interior-img">
+            </p>
+            <p class="interior-info">
+              <img src="../img/Interior2.JPG" class="card-interior-img">
+            </p>
+            <p class="txt">（サンプル）店内は広々としたお席を用意しております</p>
+          </div>
+          <div class="d-block d-md-none">
+            <p class="img card-img-top rounded-0">
+              <img src="../img/seats.png" class="card-interior-img">
+            </p>
+            <p class="interior-info">
+              <img src="../img/Interior4.JPG" class="card-interior-img">
+            </p>
+            <p class="txt">（サンプル）店内は広々としたお席を用意しております</p>
+          </div><!--ここまでスマホ画面用 -->
       </section>
     </article>
         
@@ -192,14 +208,13 @@
   <section class="container py-5  bg-white" id="sec5">
       <div class="row flex-row-reverse">
           <div class="col-12 col-lg-6">
-          <img src="img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-block d-md-none"> 
-          <img src="img/front.JPG" class="footer-logo mb-3 d-block d-md-none">
+          <img src="../img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-block d-md-none"> 
+          <!-- <img src="../img/front.JPG" class="footer-logo mb-3 d-block d-md-none"> 店内紹介ページでは非表示-->
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1534.5236713452484!2d135.55262318256618!3d34.6580372162294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dfb19f3a3871%3A0xf9cabd87c13209b!2z44KE44GN44Go44KK44Gm44KL44Gh44KD44KT!5e0!3m2!1sja!2sjp!4v1655434669681!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.830828060774!2d139.7648629!3d35.6811673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1540728928735"  frameborder="0" style="border:0" allowfullscreen></iframe> -->
           </div>
           <div class="col-12 col-lg-6">
-              <img src="img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-none d-md-block">
-              <img src="img/front.JPG" class="footer-logo d-md-block d-none mb-3">
+              <img src="../img/phone_number.png" alt="footer logo" class="footer-logo mb-3 d-none d-md-block">
+              <img src="../img/front.JPG" class="footer-logo d-md-block d-none mb-3">
                       <dl class="text-secondary text-left mb-0">
                       <dt class="float-md-left">住所：</dt><dd>大阪市生野区小路３丁目５−１６</dd>
                       <dt class="float-md-left">営業時間：</dt><dd>17：00〜翌3：00（LO. 翌2:00）</dd>
