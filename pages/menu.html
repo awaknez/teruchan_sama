@@ -27,7 +27,7 @@
     
 <body id="page">
 <header>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-md">
       <div class="container">
       <a class="navbar-brand" href="../index.html"><img src="../img/header-logo.png" alt="logo" class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
@@ -56,7 +56,7 @@
     </ol>
 </nav>
 
-<main class="py-5 container">
+<main class="py-5 container main-bg">
             <h1 class="font-weight-bold text-center ttl-bdr">メニュー</h1>
 	<div class="row">
     <div class="col-md-4 mb-4">
@@ -64,7 +64,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
             <h5 class="mb-0">
-              <a class="text-body" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+              <a class="text" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
                 料理メニュー
               </a>
             </h5>
@@ -95,14 +95,14 @@
               アイス
             </div><!-- /.card-body -->
               <div class="card-body p-3">
-              ドリンク
+                <a href="../pages/drink.html">ドリンク</a>
               </div><!-- /.card-body -->
           </div><!-- /.collapse -->
         </div><!-- /.card -->
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
             <h5 class="mb-0">
-              <a class="collapsed text-body" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
                 こだわり
               </a>
             </h5>
@@ -121,7 +121,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0">
-              <a class="collapsed text-body" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+              <a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
                 店内紹介
               </a>
             </h5>
@@ -142,8 +142,10 @@
     <!--右カラムのコンテンツ-->
     <article class="col-md-8 border p-3 p-md-5 m-3 m-lg-0">
         <section class="border-bottom mb-3">
-          <p class="h2">料理メニュー</p>
-          <p id="yaki1" class="h3">焼鳥※画像に変えるかも。</p>
+          <!-- <p class="h2">料理メニュー</p> -->
+          <p class="menu-letter"><img src="../img/fonts/food_menu_font.png" alt="料理メニュー" class="menuImg"></p>
+          <!-- <p id="yaki1" class="h3">焼鳥※画像に変えるかも。</p> -->
+          <p class="menu-letter"><img src="../img/fonts/yakitori_font2.png" alt="焼鳥" class="menuImg"></p>
             <div class="row d-sm-block d-sm-flex d-none"><!--PC画面用-->
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
@@ -264,6 +266,7 @@
               <p class="txt">ここにサンプルテキストが入ります。</p>
               </div>
             </div> <!--row-->
+            <!--ここまでスマホ画面用-->
             <div class="row">
               <div class="col-12 col-md-6 mb-3">
                   <div class="d-flex justify-content-between">
@@ -335,7 +338,8 @@
             </div><!--row-->
         </section>
         <section class="creative-food">
-          <p class="h3">トッピング・創作串※画像に変えるかも。</p>
+          <!-- <p class="h3">トッピング・創作串※画像に変えるかも。</p> -->
+          <p class="menu-letter"><img src="../img/fonts/topping-create_font2.png" alt="トッピング・創作串" class="menuImg"></p>
           <div class="price">
             <p class="h5">各150円</p>
             <p class="tax-in">(税込165円)</p>
@@ -361,7 +365,8 @@
           </div><!--row-->
         </section>
         <section>
-          <p class="h3">お刺身。</p>
+          <!-- <p class="h3">お刺身</p> -->
+          <p class="menu-letter"><img src="../img/fonts/sashimi_font2.png" alt="おさし身" class="menuImg"></p>
           <!--PC画面用-->
           <div class="row d-lg-block d-lg-flex d-none">
             <div class="col-lg-6 mb-3">
@@ -430,7 +435,8 @@
         </section>
         <!--一品料理-->
         <section>
-          <p class="h3">一品料理※画像に変えるかも。</p>
+          <!-- <p class="h3">一品料理※画像に変えるかも。</p> -->
+          <p class="menu-letter"><img src="../img/fonts/alacarte_font2.png" alt="一品料理" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">
@@ -482,7 +488,8 @@
         </section>
         <!--揚げ物-->
         <section>
-          <p class="h3">揚げ物※画像に変えるかも。</p>
+          <!-- <p class="h3">揚げ物※画像に変えるかも。</p> -->
+          <p class="menu-letter"><img src="../img/fonts/friedFood_font2.png" alt="揚げ物" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">
@@ -547,7 +554,8 @@
         </section>
         <!--スピードメニュー-->
         <section>
-          <p class="h3">スピードメニュー</p>
+          <!-- <p class="h3">スピードメニュー</p> -->
+          <p class="menu-letter"><img src="../img/fonts/speedMenu_font2.png" alt="スピードメニュー" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">
@@ -588,7 +596,8 @@
         </section>
         <!--サラダ-->
         <section>
-          <p class="h3">サラダ</p>
+          <!-- <p class="h3">サラダ</p> -->
+          <p class="menu-letter"><img src="../img/fonts/salada_font2.png" alt="サラダ" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">
@@ -622,7 +631,8 @@
         </section>
         <!--ご飯・スープ類-->
         <section>
-          <p class="h3">ご飯・スープ類</p>
+          <!-- <p class="h3">ご飯・スープ類</p> -->
+          <p class="menu-letter"><img src="../img/fonts/rice-soup_font2.png" alt="ご飯・スープ類" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">
@@ -674,7 +684,8 @@
         </section>
         <!--アイス-->
         <section>
-          <p class="h3">アイス</p>
+          <!-- <p class="h3">アイス</p> -->
+          <p class="menu-letter"><img src="../img/fonts/ice_font2.png" alt="アイス" class="menuImg"></p>
           <div class="row d-flex">
             <div class="col-md-6">
               <div class="d-flex justify-content-between">

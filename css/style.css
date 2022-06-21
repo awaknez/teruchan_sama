@@ -38,10 +38,30 @@ header .tel a {
   text-decoration: none;
   color: #fff;
   width: 100px;
-  padding: 25px 0;
+  padding: 30px 25px 8px 25px;
   text-align: center;
   display: block;
   border-radius: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#page-top a::before{
+  content:"／";
+  color:#fff;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  left: 39px;
+}
+
+#page-top a::after{
+  content:"＼";
+  color:#fff;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  right: 39px;
 }
 
 #page-top a:hover {
@@ -98,7 +118,7 @@ header.top-page {
   margin-bottom: 50px;
 }
 
-.ttl-bdr::before {
+/* .ttl-bdr::before {
   content: "";
   position: absolute;
   left: 0;
@@ -107,7 +127,7 @@ header.top-page {
   border-bottom: 5px solid #000;
   width: 12%;
   margin: 0 auto -15px;
-}
+} */
 
 #sec3 {
   /* background-image: url("../img/bg-staff.jpg"); */
@@ -200,9 +220,9 @@ iframe {
     line-height: 1.2;
   }
 
-  #sec3 {
-    background-image: none;
-  }
+  /* #sec3 {
+    /* background-image: none;
+  } */
 
   header .navbar-brand {
     width: 20%;
@@ -240,6 +260,40 @@ iframe {
 /* END */
 
 /* ここからオリジナル装飾 */
+.index-main{
+  background-image: url("../img/japanese-paper_00034.jpeg");
+}
+
+.washi{
+  background-image: url("../img/washi-pattern-01.jpeg");  
+}
+.navbar{
+  background-color: black;
+}
+
+.navbar a{
+  color: #fff;
+}
+
+.card-header{
+  background-color: #C1574A;
+}
+.card-header a{
+  color: #fff;
+}
+
+.text-body{
+  color: #fff;
+}
+.menu-topic{
+  font-family: "ヒラギノ明朝 ProN";
+  font-weight: bold;
+}
+
+.menu-topic2{
+  text-align: end;
+}
+
 .menu-btnArea{
   text-align: center;
 }
@@ -260,7 +314,7 @@ iframe {
 
 .phone_number::before{
   content:"";
-  background-image:url(/Users/apple/HTML_CSS/teruchan_sama/img/icon_tel.png);
+  background-image:url(../img/icon_tel.png);
   background-color: #C1574A;
   display: inline-block;
   background-repeat: no-repeat;
@@ -343,10 +397,29 @@ main{
 }
 
 /* メニューページ */
+
+body{
+  background-image: url("../img/japanese-paper_00034.jpeg");
+}
+
+.menu-letter{
+  /* height: 100%; */
+  width: 100%;
+}
+
+.menuImg{
+  width: 100%;
+  height: 100%;
+}
+
 .price{
   color: #C1574A;
   display: flex;
   align-items: baseline;
+}
+
+.price-color{
+  color: #C1574A;
 }
 
 .tax-in{
@@ -368,13 +441,14 @@ main{
   position: relative;
 }
 
+/* トッピングの注釈 */
 .side-anno{
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: #fff;
   position: absolute;
-  top: 0;
+  top: 100px;
   right: 30px;
   display: flex;
   align-items: center;
@@ -399,6 +473,9 @@ main{
   font-size: 24px;
   vertical-align: unset;
 }
+.drink-section{
+  padding: 20px;
+}
 
 /* ここからこだわりページ */
 .commit-txt{
@@ -407,4 +484,23 @@ main{
 
 .lead-txt{
   border-bottom: 1px solid #C1574A;
+}
+
+.nav-tabs{
+  background-color: #C1574A;
+  padding: 5px;
+}
+.nav-tabs li{
+  width: 24%;
+  background-color: #C1574A;
+}
+
+.nav-tabs li a{
+  text-align: center;
+  font-size: 12px;
+}
+
+.ttl-bdr{
+  font-family: "ヒラギノ明朝 ProN";
+
 }
