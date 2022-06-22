@@ -415,6 +415,10 @@ main{
   margin-right: 5px;
 }
 
+.footer-list a{
+  text-decoration: none;
+  color: #666;
+}
 /* メニューページ */
 
 body{
@@ -516,7 +520,7 @@ body{
 
 .nav-tabs li a{
   text-align: center;
-  font-size: 18px;
+  font-size: 0.9rem;
 }
 
 .ttl-bdr{
