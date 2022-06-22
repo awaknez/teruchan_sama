@@ -159,16 +159,17 @@ header.top-page {
 }
 
 #sec4 table td {
-  width: 14.2%;
+  /* width: 14.2%; */
+  font-size: 0.9rem;
 }
 
 #sec4 table td:nth-child(7n) {
   background-color: #5197E0;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #sec4 table td:nth-child(7n+1) {
-  background-color: #FF8A8C;
+  /* background-color: #FF8A8C; */
   color: #fff;
 }
 
@@ -346,9 +347,14 @@ iframe {
   color: white;
 }
 
+.reserve-btn a{
+  text-decoration: none;
+  color:#fff;
+}
+
 .menu-nav{
-margin: 0 auto;
-margin-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .food-card{
@@ -402,7 +408,7 @@ main{
 }
 
 .head-lead{
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .footer-list ul li::before{
@@ -425,6 +431,10 @@ body{
   background-image: url("../img/japanese-paper_00034.jpeg");
 }
 
+#collapseOne a{
+  color: #6c757d;
+}
+
 .menu-letter{
   /* height: 100%; */
   width: 100%;
@@ -439,6 +449,7 @@ body{
   color: #C1574A;
   display: flex;
   align-items: baseline;
+
 }
 
 .price-color{
@@ -446,7 +457,12 @@ body{
 }
 
 .tax-in{
+  color: #C1574A;
   font-size: 14px;
+}
+
+.tax-out{
+  color: #C1574A;
 }
 
 .selection{
