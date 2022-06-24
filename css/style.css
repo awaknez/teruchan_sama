@@ -103,10 +103,10 @@ header.top-page {
 
 .jumbotron h2 {
   line-height: 1.8rem;
-  text-shadow: 0px 1px 20px #865e04,0px -1px 20px #865e04;
+  text-shadow: 0px 1px 20px #865e04,0px -1px 20px #865e04,1px -1px 20px #865e04,1px 1px 20px #865e04;
 
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /* ====== TOPPAGE SECTION ====== */
@@ -368,6 +368,7 @@ iframe {
 
 .select{
   border: 1px solid;
+  padding:0 4px;
 }
 
 .header-img{
