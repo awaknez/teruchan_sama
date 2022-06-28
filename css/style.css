@@ -355,7 +355,7 @@ iframe {
   border-radius: 3px;
   background-color: #fff;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .takeOutTxt{
@@ -371,6 +371,15 @@ iframe {
   font-size: 24px;
   font-weight: bold;
   color:#c1574A;
+  position: relative;
+}
+
+.orderTtl::after{
+  content:"";
+  border-bottom: 3px solid #c1574A;
+  width: 40px;
+  display: block;
+  margin: 5px auto;
 }
 
 .takeOutOrder::after{
@@ -382,6 +391,15 @@ iframe {
   top:60px;
   display: block;
   text-align: center;
+}
+
+.txtPhone{
+  font-size: 15px;
+}
+
+.yakitori-img{
+  height: 100%;
+  width: 4rem;
 }
 
 .card-interior-img{
@@ -450,6 +468,10 @@ main{
 .sns-info{
   font-size: 18px;
   text-align: center;
+}
+
+#sec5{
+  font-size: 0.9rem;
 }
 
 /* SNSやってますの下線部分 */
