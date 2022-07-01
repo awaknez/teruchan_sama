@@ -626,6 +626,18 @@ body{
   font-family: "ヒラギノ明朝 ProN";
 }
 
+.second-topic{
+  color:#C1574A
+}
+
+.commitLead{
+  font-size: 1.2rem;
+  border: 2px solid #C1574A;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+}
+
 /* ハンバーガーメニューの装飾 */
 /* ボタン外フチ、ボーダーの色はclassで指定 */
 .navbar-toggler{
