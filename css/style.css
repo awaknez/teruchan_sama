@@ -545,6 +545,18 @@ body{
 }
 .letter-yakitori{
   object-fit: contain;
+  position: relative;
+}
+
+.letter-yakitori::after{
+  content:"";
+  background: url("../img/letter&logo/yakitori_alphabet.PNG");
+  height: 5rem;
+  width:100%;
+  display: block;
+  position: absolute;
+  top:0;
+  left:20px;
 }
 
 .price{
