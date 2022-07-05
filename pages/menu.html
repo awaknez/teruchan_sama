@@ -58,7 +58,7 @@
 <main class="py-5 container main-bg">
             <h1 class="font-weight-bold text-center ttl-bdr">メニュー</h1>
 	<div class="row">
-    <div class="col-md-4 mb-4">
+    <div class="col-sm-4 mb-4">
 			<div class="accordion mb-3" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
@@ -107,17 +107,7 @@
               </a>
             </h5>
           </div><!-- /.card-header -->
-            <!-- <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body p-0">
-                <ul class="list-unstyled mb-0">
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3"><a href="#">link</a></li>
-                        </ul> -->
-              <!-- </div>/.card-body -->
-            <!-- </div>/.collapse -->
-        </div><!-- /.card -->
+        </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0">
@@ -127,253 +117,325 @@
               </a>
             </h5>
           </div><!-- /.card-header -->
-                  <!-- <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body p-0">
-                      <ul class="list-unstyled mb-0">
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3"><a href="#">link</a></li>
-                              </ul>
-                    </div> /.card-body -->
-                  <!-- </div>/.collapse -->
-          </div><!-- /.card -->
+        </div><!-- /.card -->
       </div><!-- /#accordion -->
 		</div>
     <!--右カラムのコンテンツ-->
-    <article class="col-md-8 border p-3 p-md-5 m-3 m-lg-0">
+    <article class="col-sm-8 border px-3 pb-3 m-3 m-lg-0">
         <section class="border-bottom mb-3" id="yakitori">
           <!-- <p class="h2">料理メニュー</p> -->
-          <p class="menu-letter"><img src="../img/fonts/food_menu_font.png" alt="料理メニュー" class="menuImg"></p>
+          <!-- <p class="menu-letter col-12"><img src="../img/fonts/food_menu_font.png" alt="料理メニュー" class="menuImg col-12"></p> -->
           <!-- <p id="yaki1" class="h3">焼鳥※画像に変えるかも。</p> -->
-          <p class="menu-letter"><img src="../img/fonts/yakitori_font2.png" alt="焼鳥" class="menuImg"></p>
+          <p class="mb-1 mt-0"><img src="../img/letter&logo/yakitori_logo.PNG" alt="焼鳥" class="d-block mx-auto letter-yakitori col-sm-4 col-6"></p>
+          <p class="text-center h5 my-4 bg-danger text-white py-2 mx-2">※串1本あたりのお値段です</p>
             <div class="row d-sm-block d-sm-flex d-none menu-topic"><!--PC画面用-->
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2032.JPG" class="card-interior-img">
+                    <img src="../img/food/torimomo4.jpg" alt="とりもも" class="card-interior-img tori-card">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">とりもも</p>
+                  <p class="text-md-right pl-3 pl-md-0"><span class="select text-right">塩orタレ</span></p>
+                </div>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 90円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込99円)</p>  
               </div>
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2034.JPG" class="card-interior-img">
+                    <img src="../img/food/negima4.JPG" class="card-interior-img  tori-card">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <p class="h5 menu-topic">ネギマ</p>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>  
               </div>
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2035.JPG" class="card-interior-img">
+                    <img src="../img/food/yagen5.JPG" class="card-interior-img  tori-card">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <p class="h5 menu-topic">やげん軟骨</p>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>  
               </div>
             </div><!--row-->
             <div class="row d-sm-block d-sm-flex d-none menu-topic">
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2038.JPG" class="card-interior-img">
+                    <img src="../img/food/tsukune-oroshi2.JPG" class="card-interior-img">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <p class="h5 menu-topic">つくねおろしポン酢</p>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2040.JPG" class="card-interior-img">
+                    <img src="../img/food/cheeze-bacon4.JPG" class="card-interior-img">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <p class="h5 menu-topic">チーズベーコン</p>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
               <div class="col-sm-4">
                 <p class="img card-img-top rounded-0">
-                    <img src="../img/food/IMG_2041.JPG" class="card-interior-img">
+                    <img src="../img/food/tsukune-cheeze2.JPG" class="card-interior-img">
                 </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
+                <p class="h5 menu-topic">つくねチーズ</p>
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
             </div><!--row-->
-            <!--ここまでPC画面用-->
-            <!-- ここからスマホ画面用 -->
-            <div class="row d-sm-none menu-topic"><!--row1-->
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2032.JPG" class="card-interior-img">
-                </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2034.JPG" class="card-interior-img">
-              </p>
-              <p class="h5 menu-topic">メニュー名</p>
-              <p class="interior-info text-right">
-                <span>●●円</span>
-              </p>
-              <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-            </div> <!--row-->
-            <div class="row d-sm-none menu-topic"><!--row2-->
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2035.JPG" class="card-interior-img">
-                </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2038.JPG" class="card-interior-img">
-              </p>
-              <p class="h5 menu-topic">メニュー名</p>
-              <p class="interior-info text-right">
-                <span>●●円</span>
-              </p>
-              <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-            </div> <!--row-->
-            <div class="row d-sm-none menu-topic"><!--row3-->
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2040.JPG" class="card-interior-img">
-                </p>
-                <p class="h5 menu-topic">メニュー名</p>
-                <p class="interior-info text-right">
-                  <span>●●円</span>
-                </p>
-                <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-              <div class="col-6">
-                <p class="img card-img-top rounded-0">
-                  <img src="../img/food/IMG_2041.JPG" class="card-interior-img">
-              </p>
-              <p class="h5 menu-topic">メニュー名</p>
-              <p class="interior-info text-right">
-                <span>●●円</span>
-              </p>
-              <p class="txt">ここにサンプルテキストが入ります。</p>
-              </div>
-            </div> <!--row-->
-            <!--ここまでスマホ画面用-->
-            <div class="row  menu-topic">
+            <div class="row  menu-topic mt-5">
               <div class="col-12 col-md-6 mb-3">
                   <div class="d-flex justify-content-between">
-                      <p class="h5 menu-topic">つなぎ</p>
-                      <div class="price">
-                        <h5>120円</h5>
-                        <p class="tax-in">(税込132円)</p>
+                    <div class="d-flex justify-content-space-between">
+                        <p class="h5 menu-topic mr-2">とりもも</p>
+                        <p class="text-sm-right ml-3 ml-md-0"><span class="select text-right">塩orタレ</span></p>
+                      </div>
+                      <div class="justify-content-end">
+                        <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 90円</p>
+                        <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込99円)</p>
                       </div>
                   </div><!--contents-->
                   <div class="d-flex justify-content-between">
-                    <p class="h5  menu-topic">皮</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
-                    </div>
-                </div><!--contents-->
-                <div class="d-flex justify-content-between">
-                  <p class="h5  menu-topic">ソリレス</p>
-                  <div class="price">
-                    <h5>120円</h5>
-                    <p class="tax-in">(税込132円)</p>
-                  </div>
+                    <div class="d-flex justify-content-space-between">
+                        <p class="h5 menu-topic mr-2">こころ</p>
+                        <p class="text-sm-right ml-3 ml-md-0"><span class="select text-right">塩orタレ</span></p>
+                      </div>
+                      <div class="justify-content-end">
+                        <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                        <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                      </div>
                   </div><!--contents-->
                   <div class="d-flex justify-content-between">
-                    <p class="h5 menu-topic">ぼんじり</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">つくね</p>
+                      <p class="text-sm-right ml-3 ml-md-0"><span class="select text-right">塩orタレ</span></p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
                     </div>
                   </div><!--contents-->
                   <div class="d-flex justify-content-between">
-                    <p class="h5 menu-topic">ひねもも</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">きも</p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                    </div>
+                  </div><!--contents-->
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">皮</p>
+                      <p class="text-sm-right ml-3 ml-md-0"><span class="select text-right">塩orタレ</span></p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                    </div>
+                  </div><!--contents-->
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">ぼんじり</p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                    </div>
+                  </div><!--contents-->
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">やげん軟骨</p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                    </div>
+                  </div><!--contents-->
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-space-between">
+                      <p class="h5 menu-topic mr-2">イカダ</p>
+                      <p class="selection vertical-align-baseline">（長ネギ）</p>
+                    </div>
+                    <div class="justify-content-end">
+                      <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                      <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
                     </div>
                   </div><!--contents-->
               </div><!--col-12-->
               <div class="col-12 col-md-6 mb-3">
-                  <div class="d-flex justify-content-between">
-                      <p class="h5 menu-topic">やげん軟骨</p>
-                      <div class="price">
-                        <h5>120円</h5>
-                        <p class="tax-in">(税込132円)</p>
-                      </div>
-                  </div><!--contents-->
-                  <div class="d-flex justify-content-between">
-                    <p class="h5 menu-topic">もち</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
-                    </div>
-                  </div><!--contents-->
-                  <div class="d-flex justify-content-between">
-                    <p class="h5 menu-topic">ネギマ</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
-                    </div>
-                  </div><!--contents-->   
-                  <div class="d-flex justify-content-between">
-                    <p class="h5 menu-topic">きも</p>
-                    <div class="price">
-                      <h5>120円</h5>
-                      <p class="tax-in">(税込132円)</p>
-                    </div>
-                  </div><!--contents-->    
-                </div><!--col-12-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">ネギマ</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">砂ずり</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">ささみ</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">せせり</p>
+                    <p class="text-sm-right ml-3 ml-md-0"><span class="select text-right">塩orタレ</span></p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">つなぎ</p>
+                    <p class="accent"><img src="../img/letter&logo/limited.PNG" alt="希少部位" class="accent-img"></p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">ひねもも</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">もち</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">シイタケ</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-space-between">
+                    <p class="h5 menu-topic mr-2">手羽唐揚げ</p>
+                    <p class="selection vertical-align-baseline">（2本）</p>
+                  </div>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 300円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込330円)</p>
+                  </div>
+                </div><!--contents-->
+              </div><!--col-12-->
             </div><!--row-->
         </section>
         <section class="creative-food">
           <!-- <p class="h3">トッピング・創作串※画像に変えるかも。</p> -->
-          <p class="menu-letter"><img src="../img/fonts/topping-create_font2.png" alt="トッピング・創作串" class="menuImg"></p>
-          <div class="price menu-topic">
-            <p class="h5 menu-topic">各150円</p>
-            <p class="tax-in">(税込165円)</p>
-          </div>
+          <p class="menu-letter mb-5 text-center"><img src="../img/letter&logo/topping-creative.PNG" alt="トッピング・創作串" class="menuImg letter-yakitori col-12 col-lg-6"></p>
           <div class="side-anno"><span class="anno-txt">お好きな<br>トッピングに<br>できます！</span></div>
           <div class="row menu-topic">
             <div class="col-12 col-md-6 mb-3">
-                <div class="d-flex">
-                  <p class="h5 menu-topic">つくね</p>
-                  <p class="selection">（チーズ・明太マヨ・おろしポン酢）</p>
-                </div>
-                <div class="d-flex">
-                  <p class="h5 menu-topic">ささみ</p>
-                  <p class="selection">（梅しそ・明太マヨ・海苔わさび）</p>
-                </div>
-                <p class="h5 menu-topic">チーズベーコン</p>
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">つくねチーズ</p>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">つくね明太マヨ</p>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">つくねおろしポン酢</p>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">チーズべーコン</p>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
+                <div class="d-flex justify-content-between">
+                  <p class="h5 menu-topic">エノキベーコン</p>
+                  <div class="justify-content-end">
+                    <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                    <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                  </div>
+                </div><!--contents-->
             </div>
             <div class="col-12 col-md-6 mb-3">
+              <div class="d-flex justify-content-between">
+                <p class="h5 menu-topic">ささみ梅しそ</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
+              <div class="d-flex justify-content-between">
+                <p class="h5 menu-topic">ささみ明太マヨ</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
+              <div class="d-flex justify-content-between">
+                <p class="h5 menu-topic">ささみ海苔わさび</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
+              <div class="d-flex justify-content-between">
                 <p class="h5 menu-topic">うずらベーコン</p>
-                <p class="h5 menu-topic">エノキベーコン</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
+              <div class="d-flex justify-content-between">
                 <p class="h5 menu-topic">トマトベーコン</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
+              <div class="d-flex justify-content-between">
+                <p class="h5 menu-topic">せせりおろしポン酢</p>
+                <div class="justify-content-end">
+                  <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
+                  <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>
+                </div>
+              </div><!--contents-->
             </div><!--col-12-->
           </div><!--row-->
         </section>
@@ -723,7 +785,8 @@
           <p class="tel m-0 h3 phone_number"><a href="tel:0667568889">06-6756-8889</a></p>
         </div>
     </article>
-≈    
+  </div><!--row-->
+
     <!------------------------------------------------------------------------>
     <hr>
     <!---------------------------お店情報--------------------------------------------->

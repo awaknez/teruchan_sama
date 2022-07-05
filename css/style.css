@@ -574,6 +574,10 @@ body{
   position: relative;
 }
 
+.tori-card{
+  height: 9rem;
+}
+
 .anno1{
   font-size: 12px;
 }
@@ -583,7 +587,6 @@ body{
 }
 
 .accent{
-  height:5rem;
   width: 5rem;
   position: relative;
 }
@@ -614,7 +617,7 @@ body{
   border-radius: 50%;
   background-color: #fff;
   position: absolute;
-  top: 100px;
+  top: 0px;
   right: 30px;
   display: flex;
   align-items: center;
