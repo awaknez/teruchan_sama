@@ -125,19 +125,34 @@
         <section class="border-bottom mb-3" id="yakitori">
           <p class="mb-1 mt-0"><img src="../img/letter&logo/yakitori_logo.PNG" alt="焼鳥" class="d-block mx-auto letter-yakitori col-sm-4 col-6"></p>
           <p class="text-center h5 my-4 bg-danger text-white py-2 mx-2">※串1本あたりのお値段です</p>
-            <div class="row d-sm-block d-sm-flex d-none menu-topic"><!--PC画面用-->
-              <div class="col-sm-4">
+            <div class="row d-block d-flex menu-topic"><!--PC画面用-->
+              <div class="d-flex d-sm-none mb-4"><!--スマホ用とりももピックアップ-->
+                <div class="menu-card-img col-6">
+                    <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="../img/food/torimomo4.jpg" alt="とりもも">
+                </div>
+                <div class="col-6">
+                    <h5 class="mt-0 menu-topic">とりもも</h5>
+                    <div class="d-sm-flex justify-content-between">
+                        <p class="text-md-right pl-3 pl-md-0"><span class="select text-right">塩orタレ</span></p>
+                      <div class="text-right">
+                            <p class="h4 menu-topic menu-topic2 price-color"> 90円</p>
+                            <p class="tax-in menu-topic2">(税込99円)</p>
+                        </div>
+                    </div> 
+                </div>
+              </div><!--ここまでスマホ用とりももピックアップ-->
+              <div class="col-sm-4 d-none d-sm-block">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/torimomo4.jpg" alt="とりもも" class="card-interior-img tori-card">
                 </p>
-                <div class="d-flex justify-content-between">
+                <div class="d-sm-flex justify-content-between">
                   <p class="h5 menu-topic">とりもも</p>
                   <p class="text-md-right pl-3 pl-md-0"><span class="select text-right">塩orタレ</span></p>
                 </div>
                 <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 90円</p>
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込99円)</p>  
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-6">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/negima4.JPG" class="card-interior-img  tori-card">
                 </p>
@@ -145,7 +160,7 @@
                 <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 120円</p>
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>  
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-6">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/yagen5.JPG" class="card-interior-img  tori-card">
                 </p>
@@ -154,8 +169,21 @@
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>  
               </div>
             </div><!--row-->
-            <div class="row d-sm-block d-sm-flex d-none menu-topic">
-              <div class="col-sm-4">
+            <p class="menu-letter text-center d-sm-none"><img src="../img/letter&logo/topping-creative.PNG" alt="トッピング・創作串" class="menuImg letter-yakitori col-8"></p>
+            <div class="row d-flex menu-topic">
+              <div class="d-flex d-sm-none mb-4"><!--スマホ用つくねおろしポン酢ピックアップ-->
+                <div class="menu-card-img col-6">
+                    <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="../img/food/tsukune-oroshi2.JPG" alt="とりもも">
+                </div>
+                <div class="col-6">
+                    <h5 class="mt-0 menu-topic">つくね<br>おろしポン酢</h5>
+                    <div class="text-right pr-md-0">
+                        <p class="h5 menu-topic menu-topic2 price-color"> 150円</p>
+                        <p class="tax-in menu-topic2">(税込165円)</p>
+                    </div>
+                </div>
+              </div><!--ここまでスマホ用つくねおろしポン酢ピックアップ-->
+              <div class="col-sm-4 d-none d-sm-block">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/tsukune-oroshi2.JPG" class="card-interior-img">
                 </p>
@@ -163,7 +191,7 @@
                 <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-6">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/cheeze-bacon4.JPG" class="card-interior-img">
                 </p>
@@ -171,7 +199,7 @@
                 <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 150円</p>
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-6">
                 <p class="img card-img-top rounded-0">
                     <img src="../img/food/tsukune-cheeze2.JPG" class="card-interior-img">
                 </p>
@@ -180,7 +208,8 @@
                 <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込165円)</p>  
               </div>
             </div><!--row-->
-            <div class="row  menu-topic mt-5">
+            <p class="text-center"><img src="../img/letter&logo/yakitori_alphabet.PNG" alt="yakitori" class="col-8 col-sm-4"></p>
+            <div class="row  menu-topic mt-3">
               <div class="col-12 col-md-6 mb-3">
                   <div class="d-flex justify-content-between">
                       <div class="d-flex justify-content-space-between">
@@ -349,7 +378,7 @@
             </div><!--row-->
         </section>
         <section class="creative-food">
-          <p class="menu-letter mb-sm-5 text-center"><img src="../img/letter&logo/topping-creative.PNG" alt="トッピング・創作串" class="menuImg letter-yakitori col-12 col-sm-6"></p>
+          <p class="menu-letter mb-sm-5 text-center"><img src="../img/letter&logo/topping-creative.PNG" alt="トッピング・創作串" class="menuImg letter-yakitori col-10 col-sm-6"></p>
           <div class="side-anno d-sm-flex d-none"><span class="anno-txt">お好きな<br>トッピングに<br>できます！</span></div>
           <p class="menu-letter mb-4 text-center price-color d-sm-none">お好きなトッピングにできます</p>
           <div class="row menu-topic">
@@ -501,8 +530,8 @@
                       </div>
                   </div> 
               </div>
-          </div>
-        </div><!--ピックアップ-->
+            </div>
+          </div><!--ピックアップ-->
           <div class="row  menu-topic mt-5">
             <div class="col-12 col-md-6 mb-3">
               <div class="d-flex justify-content-between">
