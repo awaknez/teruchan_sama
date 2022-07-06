@@ -622,6 +622,21 @@ body{
   vertical-align: top;
 }
 
+/* 野菜サラダの「定番部分のみ」 */
+
+.accent-a{
+  width: 2rem;
+  position: relative;
+}
+
+.accent-img-b{ 
+  width: 4rem;
+  vertical-align: top;
+  position: absolute;
+  top:-10px;
+  left: -60px;
+}
+
 /* トッピングの注釈 */
 .side-anno{
   width: 100px;
