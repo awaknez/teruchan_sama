@@ -416,6 +416,11 @@ iframe {
   width: 80%;
 }
 
+.card-interior-info_2{
+  width: 100%;
+  height: 80%;
+}
+
 .interior-info{
   text-align: center;
   height: 25%;
