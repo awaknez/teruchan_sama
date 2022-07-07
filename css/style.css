@@ -673,6 +673,17 @@ body{
   padding: 20px;
 }
 
+/* ボトルキープ部分 */
+.drink-catefory-a{
+  color: #C1574A;
+}
+.drink-catefory-a::before{
+  content: "●";
+  color: #C1574A;
+  font-size: 1rem;
+  vertical-align: unset;
+}
+
 /* ここからこだわりページ */
 .commit-txt{
   font-size: 18px;

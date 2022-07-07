@@ -52,14 +52,15 @@
 <nav aria-label="breadcrumb" class="breadcrumb rounded-0">
     <ol class="breadcrumb container py-0 mb-0">
         <li class="breadcrumb-item"><a href="../index.html">TOPページ</a></li>
-        <li class="breadcrumb-item active">メニュー</li>
+        <li class="breadcrumb-item"><a href="../pages/menu.html">メニュー</a></li>
+        <li class="breadcrumb-item active">ドリンクメニュー</li>
     </ol>
 </nav>
 
 <main class="py-5 container">
             <h1 class="font-weight-bold text-center ttl-bdr">メニュー</h1>
 	<div class="row">
-    <div class="col-md-4 mb-4">
+    <div class="col-lg-4 mb-4">
 			<div class="accordion mb-3" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
@@ -117,66 +118,47 @@
               </a>
             </h5>
           </div><!-- /.card-header -->
-            <!-- <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body p-0">
-                <ul class="list-unstyled mb-0">
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3 border-bottom"><a href="#">link</a></li>
-                            <li class="p-3"><a href="#">link</a></li>
-                        </ul> -->
-              <!-- </div>/.card-body -->
-            <!-- </div>/.collapse -->
         </div><!-- /.card -->
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0">
-              <!-- <a class="collapsed text" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree"> -->
               <a href="../pages/interior.html">
                   店内紹介
               </a>
             </h5>
           </div><!-- /.card-header -->
-                  <!-- <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body p-0">
-                      <ul class="list-unstyled mb-0">
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3 border-bottom"><a href="#">link</a></li>
-                                  <li class="p-3"><a href="#">link</a></li>
-                              </ul>
-                    </div> /.card-body -->
-                  <!-- </div>/.collapse -->
-          </div><!-- /.card -->
+        </div><!-- /.card -->
       </div><!-- /#accordion -->
 		</div>
-    <article class="col-md-8 border p-3 p-md-5 m-3 m-lg-0">
-      <!-- <p class="h2">ドリンクメニュー</p> -->
-      <p class="menu-letter"><img src="../img/fonts/drinkMenu_font.png" alt="料理メニュー" class="menuImg"></p>
+    <article class="col-lg-8 border p-3 p-md-5 m-3 m-lg-0">
+      <p class="text-center"><img src="../img/fonts/drinkMenu_font.png" alt="ドリンクメニュー" class="col-10 col-sm-6"></p>
       <!--ビール-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">ビール</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">生ビール</p>
-              <div class="price">
-                <h5 class="menu-topic">390円</h5>
-                <p class="tax-in menu-topic">(税込429円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 390円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込429円)</p>
               </div>
             </div><!--contents-->  
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">生小</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> 300円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込330円)</p>
               </div>
             </div><!--contents-->  
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">瓶ビール</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
+              <div class="">
+                <p class="h5 menu-topic">瓶ビール</p>
+                <p class="selection ml-2">アサヒスーパードライ<br>サッポロ黒ラベル・赤星<br>キリンクラシックラガー</p>
+              </div>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>450円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込495円)</p>
               </div>
             </div><!--contents-->  
           </div><!--col-md-12-->
@@ -185,34 +167,34 @@
       <!--ウイスキー-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">ウイスキー</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">ニッカハイボール</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">300円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込330円)</p>
               </div>
             </div><!--contents-->  
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">角ハイボール</p>
-              <div class="price">
-                <h5 class="menu-topic">360円</h5>
-                <p class="tax-in menu-topic">(税込396円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">360円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込396円)</p>
               </div>
             </div><!--contents-->  
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">コークハイ</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">420円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込462円)</p>
               </div>
             </div><!--contents--> 
             <div class="d-flex justify-content-between">
               <p class="h5 menu-topic">ジンジャーハイ</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">420円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込462円)</p>
               </div>
             </div><!--contents-->  
           </div><!--col-md-12-->
@@ -221,121 +203,103 @@
       <!--チューハイ-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">チューハイ</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">レモン</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <div class="">
+                <p class="h5 menu-topic">チューハイ</p>
+                <p class="selection ml-2">レモン　ライム<br>カルピス　柚子サワー<br>トマト</p>
+              </div>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>300円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込330円)</p>
               </div>
             </div><!--contents-->  
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ライム</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <div class="">
+                <p class="selection ml-2">柚子ジャム<br>ガリチューハイ</p>
               </div>
-            </div><!--contents-->  
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">カルピス</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
-              </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">トマト</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
-              </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">柚子ジャム</p>
-              <div class="price">
-                <h5 class="menu-topic">360円</h5>
-                <p class="tax-in menu-topic">(税込396円)</p>
-              </div>
-            </div><!--contents-->  
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ガリチューハイ</p>
-              <div class="price">
-                <h5 class="menu-topic">360円</h5>
-                <p class="tax-in menu-topic">(税込396円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>360円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込396円)</p>
               </div>
             </div><!--contents-->  
           </div><!--col-md-12-->
         </div><!--row-->
       </section>
-      <!--ワイン-->
+      <!--焼酎-->
       <section class="bg-white drink-section">
-        <p class="h3 drink-catefory menu-topic">ワイン</p>
-        <div class="row d-flex">
+        <p class="h3 drink-catefory menu-topic">焼酎</p>
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">赤ワイン</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
-              </div>
-            </div><!--contents-->  
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">白ワイン</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
-              </div>
-            </div><!--contents-->  
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">カルピス</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <p class="h5 menu-topic">「麦」いいちこ</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">360円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込396円)</p>
               </div>
             </div><!--contents--> 
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">赤玉パンチ</p>
-              <div class="price">
-                <h5 class="menu-topic">300円</h5>
-                <p class="tax-in menu-topic">(税込330円)</p>
+              <p class="h5 menu-topic">「麦」二階堂</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">390円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込429円)</p>
               </div>
             </div><!--contents--> 
+            <div class="d-flex justify-content-between">
+              <p class="h5 menu-topic">「芋」黒霧島</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">360円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込396円)</p>
+              </div>
+            </div><!--contents--> 
+            <p class="h5 menu-topic drink-catefory-a">ボトルキープ</p>
+            <div class="d-flex justify-content-between">
+              <div class="">
+                <p class="selection ml-2">二階堂<br>黒霧島<br>JINRO</p>
+                <p class="selection ml-2">その他ボトルありますので<br>お声掛け下さい。</p>
+              </div>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>2,500円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込2,750円)</p>
+              </div>
+            </div><!--contents-->  
           </div><!--col-md-12-->
         </div><!--row-->
       </section>
       <!--梅酒-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">梅酒</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">濃厚梅酒</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
+              <p class="h5 menu-topic">濃醇梅酒</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">450円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込495円)</p>
               </div>
             </div><!--contents--> 
           </div><!--col-md-12-->
         </div><!--row-->
       </section>
-      <!--焼酎-->
+      <!--日本酒-->
       <section class="bg-white drink-section">
-        <p class="h3 drink-catefory">焼酎</p>
-        <div class="row d-flex">
+        <p class="h3 drink-catefory menu-topic">日本酒</p>
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
+            <p class="h5 menu-topic">松竹梅</p>
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">「麦」いいちこ</p>
-              <div class="price">
-                <h5 class="menu-topic">390円</h5>
-                <p class="tax-in menu-topic">(税込429円)</p>
+              <p class="h5 menu-topic ml-2">一合</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">390円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込429円)</p>
               </div>
             </div><!--contents--> 
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">「芋」黒霧島</p>
-              <div class="price">
-                <h5 class="menu-topic">390円</h5>
-                <p class="tax-in menu-topic">(税込429円)</p>
+              <p class="h5 menu-topic ml-2">二合</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">690円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込759円)</p>
               </div>
             </div><!--contents--> 
           </div><!--col-md-12-->
@@ -344,85 +308,95 @@
       <!--カクテル-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">カクテル</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">カシスオレンジ</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
+              <div class="">
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">カシスオレンジ</p>
+                  <p class="h6 menu-topic pl-sm-4">ピーチウーロン</p>
+                </div>
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">カルアミルク</p>
+                  <p class="h6 menu-topic pl-sm-4">カシスミルク</p>
+                </div>
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">カシスソーダ</p>
+                  <p class="h6 menu-topic pl-sm-4">カシスウーロン</p>
+                </div>
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">ファジーネーブル</p>
+                  <p class="h6 menu-topic pl-sm-4">ピーチソーダ</p>
+                </div>
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">レッドアイ</p>
+                </div>
               </div>
-            </div><!--contents--> 
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>450円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込495円)</p>
+              </div>
+          </div><!--contents--> 
+          <p class="h6 menu-topic">（ソーダ割り等に変更できます。）</p>
+        </div><!--col-md-12-->
+        </div><!--row-->
+      </section>
+      <!--ノンアルコール-->
+      <section class="bg-white drink-section">
+        <p class="h3 drink-catefory menu-topic">ノンアルコール</p>
+        <div class="row d-flex menu-topic">
+          <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ピーチウーロン</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in">(税込495円)</p>
+              <div class="">
+                <p class="h5 menu-topic">ドライZERO</p>
+                <p class="selection ml-2">（アルコール分 0.00%）</p>
+              </div>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">360円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込396円)</p>
               </div>
             </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">カルアミルク</p>
-              <div class="price">
-                <h5 class="menu-topic">450円</h5>
-                <p class="tax-in menu-topic">(税込495円)</p>
-              </div>
-            </div><!--contents--> 
-            <p class="h6">（ソーダ割り等に変更できます。）</p>
           </div><!--col-md-12-->
         </div><!--row-->
       </section>
       <!--ソフトドリンク-->
       <section class="bg-white drink-section">
         <p class="h3 drink-catefory menu-topic">ソフトドリンク</p>
-        <div class="row d-flex">
+        <div class="row d-flex menu-topic">
           <div class="col-md-12">
             <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">コーラ</p>
-              <div class="price">
-                <h5 class="menu-topic">200円</h5>
-                <p class="tax-in menu-topic">(税込220円)</p>
+              <div class="">
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">コーラ</p>
+                  <p class="h6 menu-topic pl-sm-4">ジンジャエール</p>
+                </div>
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">カルピス</p>
+                  <p class="h6 menu-topic pl-sm-4">オレンジジュース</p>
+                </div>
+              </div>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>200円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込220円)</p>
               </div>
             </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ジンジャエール</p>
-              <div class="price">
-                <h5 class="menu-topic">200円</h5>
-                <p class="tax-in menu-topic">(税込220円)</p>
+            <div class="d-flex justify-content-between mt-4">
+              <p class="h6 menu-topic">ミックスジュース</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0">250円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込275円)</p>
               </div>
             </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">カルピス</p>
-              <div class="price">
-                <h5 class="menu-topic">200円</h5>
-                <p class="tax-in menu-topic">(税込220円)</p>
+            <div class="d-flex justify-content-between mt-3">
+              <div class="">
+                <div class="d-sm-flex justify-content-between">
+                  <p class="h6 menu-topic">ウーロン茶</p>
+                  <p class="h6 menu-topic pl-sm-4">緑茶</p>
+                </div>
               </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">オレンジジュース</p>
-              <div class="price">
-                <h5 class="menu-topic">200円</h5>
-                <p class="tax-in menu-topic">(税込220円)</p>
-              </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ミックスジュース</p>
-              <div class="price">
-                <h5 class="menu-topic">250円</h5>
-                <p class="tax-in menu-topic">(税込275円)</p>
-              </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">ウーロン茶</p>
-              <div class="price">
-                <h5 class="menu-topic">120円</h5>
-                <p class="tax-in menu-topic">(税込132円)</p>
-              </div>
-            </div><!--contents--> 
-            <div class="d-flex justify-content-between">
-              <p class="h5 menu-topic">緑茶</p>
-              <div class="price">
-                <h5 class="menu-topic">120円</h5>
-                <p class="tax-in menu-topic">(税込132円)</p>
+              <div class="justify-content-end">
+                <p class="h5 menu-topic menu-topic2 price-color pr-3 pr-md-0"> <span class="h6 font-weight-bold">各</span>120円</p>
+                <p class="tax-in menu-topic2 pr-3 pr-md-0">(税込132円)</p>
               </div>
             </div><!--contents--> 
           </div><!--col-md-12-->
