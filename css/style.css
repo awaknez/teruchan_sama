@@ -663,10 +663,10 @@ body{
 }
 
 /* ここからドリンクページ */
-.drink-catefory{
-  border-bottom: 1px solid #C1574A;
-  margin-bottom: 15px;
-}
+/* .drink-catefory{
+  /* border-bottom: 1px solid #C1574A; */
+  /* margin-bottom: 15px; 
+*/
 
 .drink-catefory::before{
   content: "●";
@@ -690,17 +690,16 @@ body{
 }
 
 .test-sec{
-  height:3rem;
+  height:2rem;
 }
 
 .test-img{
   height: 100%;
-  position: absolute;
-  left: -20px;
 }
 
-.test{
-  position: relative;
+.line{
+  border-bottom: solid 1px #C1574A;
+
 }
 
 /* ここからこだわりページ */
