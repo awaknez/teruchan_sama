@@ -689,6 +689,20 @@ body{
   vertical-align: unset;
 }
 
+.test-sec{
+  height:3rem;
+}
+
+.test-img{
+  height: 100%;
+  position: absolute;
+  left: -20px;
+}
+
+.test{
+  position: relative;
+}
+
 /* ここからこだわりページ */
 .commit-txt{
   font-size: 18px;
