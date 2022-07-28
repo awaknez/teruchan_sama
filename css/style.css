@@ -777,3 +777,7 @@ body{
   font-size: 0.6rem;
 }
 /* ハンバーガーメニューの装飾。ここまで */
+
+.row::before, .row::after {
+  display: none;
+}
