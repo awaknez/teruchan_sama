@@ -276,8 +276,39 @@
                 <!---- お刺身 ----->
                 <div id="tab2" class="tab-pane">
                     <p class="menu-letter mb-0 mt-0 "><img src="img/letter&logo/letter-osashimi.PNG" alt="おさし身" class="d-block menuImg mx-auto mb-4"></p>
-                    <div class="row px-3 d-block d-flex menu-topic">
-                        <div class="col-6 mb-3">
+                    <div class="container d-block d-flex menu-topic justify-content-between">
+                        <div class="row d-block d-flex menu-topic"><!--PC画面用-->
+                            <div class="d-flex d-sm-none mb-4"><!--スマホ用むね肉お刺身ピックアップ-->
+                                <div class="menu-card-img col-6">
+                                    <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="img/food/munenikuosashimi.jpg" alt="むね肉お刺身">
+                                </div>
+                                <div class="col-6">
+                                    <h5 class="mt-0 menu-topic">むね肉刺身</h5>
+                                    <div class="d-sm-flex justify-content-between">
+                                        <div class="text-right">
+                                            <p class="h4 menu-topic menu-topic2 price-color"> 390円</p>
+                                            <p class="tax-in menu-topic2">(税込429円)</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div><!--ここまでスマホ用むね肉お刺身ピックアップ-->
+                            <div class="d-flex d-sm-none mb-4"><!--スマホ用むね肉ユッケピックアップ-->
+                                <div class="menu-card-img col-6">
+                                    <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="img/food/yukke4.jpg" alt="むね肉ユッケ">
+                                </div>
+                                <div class="col-6">
+                                    <h5 class="mt-0 menu-topic">むね肉ユッケ</h5>
+                                    <div class="d-sm-flex justify-content-between">
+                                        <p class="accent"><img src="img/letter&logo/letter-mostPopular.PNG" alt="一番人気" class="accent-img-wpic"></p>
+                                        <div class="text-right">
+                                            <p class="h4 menu-topic menu-topic2 price-color"> 390円</p>
+                                            <p class="tax-in menu-topic2">(税込429円)</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div><!--ここまでスマホ用むね肉ユッケピックアップ-->
+                        </div>
+                        <div class="col-sm-6 d-none d-sm-block mb-3">
                             <div class="row">
                                 <div class="menu-card  col-md-6 col-xl-6">
                                     <img class="col-12 p-0 h-100 mb-3 mb-lg-0 menu-card-img" src="img/food/munenikuosashimi.jpg" alt="むね肉お刺身">
@@ -291,7 +322,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-sm-6 d-none d-sm-block mb-3">
                             <div class="row">
                                 <div class="menu-card col-md-6 col-xl-6">
                                     <img class="col-12 p-0 h-100 mb-3 mb-lg-0 menu-card-img" src="img/food/yukke4.jpg" alt="むね肉ユッケ">
@@ -332,8 +363,7 @@
                 </div>
                 <!-- 一品料理 -->
                 <div id="tab3" class="tab-pane">
-                    <!--PC画面用-->
-                    <div class="d-none d-block d-flex justify-content-center">
+                    <div class="d-none d-sm-block d-sm-flex justify-content-center">
                         <div class="text-center">
                             <img src="img/letter&logo/letter-alacarte.PNG" alt="一品料理" class="menuImg mr-lg-3 col-10">
                         </div>
@@ -341,7 +371,7 @@
                             <img src="img/letter&logo/letter-rice-soup.png" alt="ご飯・スープ類" class="menuImg ml-md-3 mx-auto col-10">
                         </div>
                     </div>
-                    <div class="row d-block d-flex menu-topic">
+                    <div class="row d-none d-sm-block d-sm-flex menu-topic">
                         <div class="col-6 mb-3">
                             <div class="d-lg-flex px-3">
                                 <div class="col-12 col-lg-6 menu-card w-100">
@@ -382,6 +412,23 @@
                         <div class="col-12 d-md-none text-center">
                             <img src="img/letter&logo/letter-alacarte.PNG" alt="一品料理" class="menuImg mr-3 mx-auto">
                         </div>
+                    </div>
+                        <div class="d-flex d-sm-none mb-4"><!--スマホ用チヂミピックアップ-->
+                            <div class="menu-card-img col-6">
+                                <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="img/food/korean-pancake1.JPG" alt="ニラたっぷりチヂミ">
+                            </div>
+                            <div class="col-6">
+                                <h5 class="mt-0 menu-topic">ニラたっぷり<br>チヂミ</h5>
+                                <div class="d-flex justify-content-end">
+                                    <p class="accent"><img src="img/letter&logo/letter-popularPNG.PNG" alt="人気" class="accent-img-wpic"></p>
+                                    <div class=" justify-content-end">
+                                        <p class="h4 menu-topic menu-topic2 price-color"> 450円</p>
+                                        <p class="tax-in menu-topic2">(税込495円)</p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div><!--ここまでスマホ用チヂミピックアップ-->
+                    <div class="container mt-0 menu-topic">
                         <div class="row">
                             <div class="col-lg-6 mb-3">
                                 <div class="d-flex justify-content-between">
@@ -417,10 +464,33 @@
                                 </div>
                                 <p class="menu-nav menu-topic">他にも一品料理が多数ございます</p>
                             </div>
-                            <div class="col-lg-6 mb-3">
-                                <div class="col12 d-md-none text-center">
-                                    <img src="img/letter&logo/letter-rice-soup.png" alt="ご飯・スープ類" class="menuImg ml-3 mx-auto">
+                        </div>
+                    </div>
+                    <div class="container mt-0 menu-topic">
+                        <div class="col-lg-6 mb-3">
+                            <div class="col12 d-md-none text-center">
+                                <img src="img/letter&logo/letter-rice-soup.png" alt="ご飯・スープ類" class="menuImg ml-3 mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex d-sm-none mb-4"><!--スマホ用焼鳥丼ックアップ-->
+                        <div class="menu-card-img col-6">
+                            <img class="col-12 p-0 h-100 mb-3 mb-lg-0 card-interior-img tori-card" src="img/food/yakitoridon1.JPG" alt="焼鳥丼">
+                        </div>
+                        <div class="col-6">
+                            <h5 class="mt-0 menu-topic">焼鳥丼</h5>
+                            <div class="d-flex justify-content-end">
+                                <p class="accent"><img src="img/letter&logo/letter-popularPNG.PNG" alt="人気" class="accent-img-wpic"></p>
+                                <div class=" justify-content-end">
+                                    <p class="h4 menu-topic menu-topic2 price-color"> 390円</p>
+                                    <p class="tax-in menu-topic2">(税込429円)</p>
                                 </div>
+                            </div> 
+                        </div>
+                    </div><!--ここまでスマホ用焼鳥丼ピックアップ-->
+                    <div class="container mt-0 menu-topic">
+                        <div class="row">
+                            <div class="col-lg-6 mb-3">
                                 <div class="d-flex justify-content-between">
                                     <h4 class="h5 menu-topic">焼おにぎり</h4>
                                     <div class="justify-content-end">
@@ -484,7 +554,7 @@
                                             <p class="h5 menu-topic">野菜サラダ</p>
                                             <p class="selection">（自家製レモンドレッシング）</p>
                                         </div>
-                                        <p class="accent"><img src="img/letter&logo/letter-classic.PNG" alt="定番" class="accent-img-a"></p>
+                                        <p class="accent"><img src="img/letter&logo/letter-classic.PNG" alt="定番" class="accent-img-a ml-3"></p>
                                     </div>
                                     <div class="justify-content-end">
                                         <p class="h5 menu-topic menu-topic2 price-color"> 390円</p>
