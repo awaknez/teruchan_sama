@@ -496,6 +496,10 @@ main{
   object-position: bottom;
 }
 
+.storeInfoTable-info{
+  color:black;
+}
+
 /* SNSやってますの下線部分 */
 .sns-info span{
   background: #f3b530;
