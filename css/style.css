@@ -496,6 +496,7 @@ main{
   object-position: bottom;
 }
 
+/* お店情報部分 iPhoneのSafariでは無効 */
 .storeInfoTable-info{
   color:white;
   background-color: #ecafa7;
