@@ -497,7 +497,16 @@ main{
 }
 
 .storeInfoTable-info{
-  color:black;
+  color:white;
+  background-color: #ecafa7;
+  width: 100%;
+  padding: 0.2rem 0.2rem;
+}
+
+.storeInfoTable-content{
+  background-color: #fff;
+  width: 100%;
+  padding: 0.8rem 0.2rem;
 }
 
 /* SNSやってますの下線部分 */
