@@ -507,7 +507,7 @@ main{
 .storeInfoTable-content{
   background-color: #fff;
   width: 100%;
-  padding: 0.8rem 0.2rem;
+  /* padding: 0.8rem 0.2rem; */
 }
 
 /* SNSやってますの下線部分 */
