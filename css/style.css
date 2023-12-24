@@ -623,10 +623,10 @@ body{
 }
 
 .accent-img{
-  width: 100%;
+  width: 85%;
   vertical-align: top;
   position: absolute;
-  top:-20px;
+  top:-10px;
 }
 .accent-img-a{
   width: 100%;
@@ -674,6 +674,16 @@ body{
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
+}
+
+/* 創作串ロゴ */
+.creativeLogo{
+  width: 7.2rem;
+}
+
+/* トッピング例 */
+.toppingExample{
+  font-size: 0.75rem;
 }
 
 /* ここからドリンクページ */
